@@ -15,7 +15,7 @@ First LTSpiceXVII tool is to be installed.The steps for SPICE simulation are giv
 * 11.A probe appears in the schematic window.Touch the probe on the wire at the Vref label on the schematic.
 * 12.The waveforms at different temperatures are obtained.
 # Contact Information
-* PREETHAM M N R M.Tech VLSI System Design, NIT Warangal.mnrpreetham1596@gmail.com
+* PREETHAM M N R M.Tech VLSI System Design, NIT Warangal mnrpreetham1596@gmail.com
 * KUNAL GHOSH Director, VSD Corp.Pvt.Ltd. kunalpghosh@gmail.com
 * PHILIPP GUHRING Software Architect at LibreSilicon Association pg@futureware.at
 * Dr.GAVRAV TRIVEDI Co-Principal Investigator,EICT Academy,
