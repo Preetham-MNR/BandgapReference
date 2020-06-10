@@ -17,6 +17,6 @@ First LTSpiceXVII tool is to be installed.The steps for SPICE simulation are giv
 # Contact Information
 * PREETHAM M N R M.Tech VLSI System Design, NIT Warangal mnrpreetham1596@gmail.com
 * KUNAL GHOSH Director, VSD Corp.Pvt.Ltd. kunalpghosh@gmail.com
-* PHILIPP GUHRING Software Architect at LibreSilicon Association pg@futureware.at
+* PHILIPP GÜHRING Software Architect at LibreSilicon Association pg@futureware.at
 * Dr.GAVRAV TRIVEDI Co-Principal Investigator,EICT Academy,
   and Associate Professor,EEE Department,IIT Guwahati trivedi@iitg.ac.in
