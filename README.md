@@ -2,7 +2,7 @@
 This Project is about generating a constant,stable reference voltage independent to temperature variations.
 # Simulation Setup
 First LTSpiceXVII tool is to be installed.The steps for SPICE simulation are given below.
- 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
+1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
 * 2.Click on `Open` and select the BGR.asc file.
 * 3.The Schematic of the Bandgap Reference circuit will be opened.
 * 4.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
