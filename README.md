@@ -7,6 +7,8 @@ The Design and Simulations of this Bandgap Reference Circuit are done using LTSp
 
 2.Click on `Download for Windows 7, 8 and 10` to get the `.exe` file for installation.
 
+![download LTSPICE](https://user-images.githubusercontent.com/26677041/84537595-b02ada80-ad0d-11ea-93f8-31fd166bb32b.PNG)
+
 3.In the `Downloads` section `LTspiceXVII.exe` is present.Use this file to install LTSpiceXVII tool on computer.
 
 # Simulation Setup
