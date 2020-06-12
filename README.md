@@ -1,5 +1,14 @@
 # Bandgap Reference Circuit
-This Project is about generating a constant,stable reference voltage independent to temperature variations.
+The aim of this project is to design a Bandgap Reference Circuit which generates a constant,stable reference voltage independent to temperature variations.In any System on Chip(SoC) the need for reference voltage is imminent.In almost all the analog IP blocks like Analog to Digital Converters,Low Dropout Voltage Regulators etc require this Voltage.
+# Installation steps for LTSpiceXVII Tool
+The Design and Simulations of this Bandgap Reference Circuit are done using LTSpiceXVII Tool.The detailed steps for the installation of LTSpiceXVII tool are given below.
+
+1.Click here(https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) to download the LTSpiceXVII Tool.
+
+2.Click on `Download for Windows 7, 8 and 10` to get the `.exe` file for installation.
+
+3.Go to Downloads and double click on `LTspiceXVII` to install on computer.
+
 # Simulation Setup
 First LTSpiceXVII tool is to be installed.The steps for SPICE simulation are given below.
 * 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
