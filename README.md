@@ -26,11 +26,26 @@ The steps for Bandgap Reference circuit SPICE simulations are given below.
   ![SChematic1](https://user-images.githubusercontent.com/26677041/84565863-fde52880-ad89-11ea-8ed6-d200b7935026.png)
 
 * 4.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
+
+   ![simulate](https://user-images.githubusercontent.com/26677041/84565993-2f122880-ad8b-11ea-93e7-f58376179007.png)
+
 * 5.A transient analysis window is displayed.
 * 6.Enter the values for `Stop Time`, `Time to start saving data` and `Maximum time step`.
+
+  ![transient analysis](https://user-images.githubusercontent.com/26677041/84565999-31748280-ad8b-11ea-842a-2a163d9b1618.PNG)
+
 * 7.A SPICE script of that transient analysis is obtained.Place it near the Schematic.
+
+  ![trans](https://user-images.githubusercontent.com/26677041/84565998-30dbec00-ad8b-11ea-8e08-1e461fde2a8a.png)
+
 * 8.To do simulation at various temperatures,a SPICE directive is to be used which is present at the last of tool bar.
+
+  ![SPICE directive](https://user-images.githubusercontent.com/26677041/84565996-30435580-ad8b-11ea-8048-7045b1463295.png)
+
 * 9.Write the command `.temp -40 -30 -10 20 40 50 80 110` in the SPICE directive and place it near the schematic.
+
+  ![spice_direc](https://user-images.githubusercontent.com/26677041/84565997-30435580-ad8b-11ea-8a71-6572a6db36e2.PNG)
+
 * 10.In the menu bar,select `Simulate` and and click on `Run`.
 * 11.A probe appears in the schematic window.Touch the probe on the wire at the Vref label on the schematic.
 * 12.The waveforms at different temperatures are obtained.
