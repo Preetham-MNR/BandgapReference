@@ -14,8 +14,17 @@ The Design and Simulations of this Bandgap Reference Circuit are done using LTSp
 # Simulation Setup
 The steps for Bandgap Reference circuit SPICE simulations are given below.
 * 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
+
+![File](https://user-images.githubusercontent.com/26677041/84565859-fb82ce80-ad89-11ea-90b9-cf9ab1d03a54.PNG)
+
 * 2.Click on `Open` and select the BGR.asc file.
+
+![open](https://user-images.githubusercontent.com/26677041/84565860-fcb3fb80-ad89-11ea-83f6-1eb66e21e05d.png)
+
 * 3.The Schematic of the Bandgap Reference circuit will be opened.
+
+![SChematic1](https://user-images.githubusercontent.com/26677041/84565863-fde52880-ad89-11ea-8ed6-d200b7935026.png)
+
 * 4.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
 * 5.A transient analysis window is displayed.
 * 6.Enter the values for `Stop Time`, `Time to start saving data` and `Maximum time step`.
