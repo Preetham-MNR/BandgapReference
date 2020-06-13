@@ -12,7 +12,7 @@ The Design and Simulations of this Bandgap Reference Circuit are done using LTSp
 3.In the `Downloads` section `LTspiceXVII.exe` is present.Use this file to install LTSpiceXVII tool on computer.
 
 # Simulation Setup
-First LTSpiceXVII tool is to be installed.The steps for SPICE simulation are given below.
+The steps for Bandgap Reference circuit SPICE simulations are given below.
 * 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
 * 2.Click on `Open` and select the BGR.asc file.
 * 3.The Schematic of the Bandgap Reference circuit will be opened.
