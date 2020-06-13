@@ -38,7 +38,7 @@ The steps for Bandgap Reference circuit SPICE simulations are given below.
 
   ![trans](https://user-images.githubusercontent.com/26677041/84565998-30dbec00-ad8b-11ea-8e08-1e461fde2a8a.png)
 
-* 8.To do simulation at various temperatures,a SPICE directive is to be used which is present at the last of tool bar.
+* 8.To do simulation at various temperatures,a SPICE directive is to be used which is present at the last of tool bar with symbol `.op`.
 
   ![SPICE directive](https://user-images.githubusercontent.com/26677041/84565996-30435580-ad8b-11ea-8048-7045b1463295.png)
 
@@ -47,8 +47,13 @@ The steps for Bandgap Reference circuit SPICE simulations are given below.
   ![spice_direc](https://user-images.githubusercontent.com/26677041/84565997-30435580-ad8b-11ea-8a71-6572a6db36e2.PNG)
 
 * 10.In the menu bar,select `Simulate` and and click on `Run`.
-* 11.A probe appears in the schematic window.Touch the probe on the wire at the Vref label on the schematic.
+
+![run](https://user-images.githubusercontent.com/26677041/84566126-6a612700-ad8c-11ea-9e03-8af9b4391ada.png)
+
 * 12.The waveforms at different temperatures are obtained.
+
+![output waveform](https://user-images.githubusercontent.com/26677041/84566125-69c89080-ad8c-11ea-9dee-af15fa68dada.png)
+
 # Contact Information
 * PREETHAM M N R M.Tech VLSI System Design, NIT Warangal mnrpreetham1596@gmail.com
 * KUNAL GHOSH Director, VSD Corp.Pvt.Ltd. kunalpghosh@gmail.com
