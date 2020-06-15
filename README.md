@@ -12,8 +12,8 @@ The Design and Simulations of this Bandgap Reference Circuit are done using LTSp
 3.In the `Downloads` section `LTspiceXVII.exe` is present.Use this file to install LTSpiceXVII tool on computer.
 
 # Simulation Setup
-The steps for Bandgap Reference circuit SPICE simulations are given below.
-* 1.Download the `BGR_currentmirror` folder
+The SPICE simulation steps for Current mirror based Bandgap Reference circuit are given below.
+* 1.Download the `BGR_currentmirror` folder from this repository.
 * 2.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
 
      ![File](https://user-images.githubusercontent.com/26677041/84565859-fb82ce80-ad89-11ea-90b9-cf9ab1d03a54.PNG)
@@ -24,7 +24,7 @@ The steps for Bandgap Reference circuit SPICE simulations are given below.
 
 * 4.The Schematic of the Bandgap Reference circuit will be opened.
 
-  ![SChematic1](https://user-images.githubusercontent.com/26677041/84565863-fde52880-ad89-11ea-8ed6-d200b7935026.png)
+     ![schematic](https://user-images.githubusercontent.com/26677041/84700876-95f13680-af71-11ea-8f80-c5dee4e8a6b8.PNG)
 
 * 5.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
 
@@ -33,11 +33,11 @@ The steps for Bandgap Reference circuit SPICE simulations are given below.
 * 6.An `Edit Simulation Command` window will be displayed.Select `DC sweep`.
 * 7.Under 1st Source, enter `Name of 1st source to sweep` as *temp*, `Type of sweep` as *linear* , `Start value` as *-40*, `Stop Value` as *140*, `Increment` as *20* .
 
-  ![transient analysis](https://user-images.githubusercontent.com/26677041/84565999-31748280-ad8b-11ea-842a-2a163d9b1618.PNG)
+  ![dc sweep](https://user-images.githubusercontent.com/26677041/84700868-94277300-af71-11ea-9874-732eb74f3bba.PNG)
 
 * 7.A SPICE script of that DC sweep analysis is obtained.Place it near the Schematic and save the Schematic.
 
-  ![trans](https://user-images.githubusercontent.com/26677041/84565998-30dbec00-ad8b-11ea-8e08-1e461fde2a8a.png)
+  ![dcsweep1](https://user-images.githubusercontent.com/26677041/84700874-9558a000-af71-11ea-8e03-2c473aecebc8.PNG)
 
 * 8.In the menu bar,select `Simulate` and and click on `Run`.
 
@@ -51,7 +51,7 @@ To see the CTAT nature w.r.t temperatre, click on the wire above `Q5` transistor
 
 The final waveform will be as shown in the Figure below.
 
-![output waveform](https://user-images.githubusercontent.com/26677041/84566125-69c89080-ad8c-11ea-9dee-af15fa68dada.png)
+![Vref vs temp](https://user-images.githubusercontent.com/26677041/84700877-95f13680-af71-11ea-843e-1a0331152b48.png)
 
 * 10.To get the variation of Reference voltage with power supply,Repeat the `Steps 5 & 6`.
 
@@ -60,7 +60,9 @@ The final waveform will be as shown in the Figure below.
 * 12.Again repeat `steps 7 & 8`,A waveform window appears.Now click on `Vref` wire on Schematic. The waveform corresponding to varistion of reference voltgae w.r.t power supply is obatined.
 The wavefrom will be as shown below.
 
-The steps for Bandgap Reference circuit SPICE simulations are given below.
+![Vref vs V1](https://user-images.githubusercontent.com/26677041/84700878-9689cd00-af71-11ea-8870-6406faa262db.png)
+
+The SPICE simulation steps for OpAmp based Bandgap Reference circuit  are given below.
 * 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
 
      ![File](https://user-images.githubusercontent.com/26677041/84565859-fb82ce80-ad89-11ea-90b9-cf9ab1d03a54.PNG)
