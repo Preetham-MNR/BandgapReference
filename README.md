@@ -3,11 +3,11 @@ The aim of this project is to design a Bandgap Reference Circuit which generates
 # Ngspice
 Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
 ## Installation steps on Ubuntu
- ...1.Open the teminal 
+1.Open the teminal 
  
- ...2.Type `sudo apt-get update -y` command in the teminal.
+2.Type `sudo apt-get update -y` command in the teminal.
  
- ...3.Now type `sudo apt-get install -y ngspice` command in the command, Ngspice will be installed on ubuntu.
+3.Now type `sudo apt-get install -y ngspice` command in the command, Ngspice will be installed on ubuntu.
 ## Simulation steps for BGR
  1.Git clone this repository in the ubuntu system.
  
@@ -19,7 +19,7 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  
  5.The wavefrom shown here will be displayed.
  
- ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85126997-34201d80-b24c-11ea-80e2-a27458395a82.png)
+   ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85126997-34201d80-b24c-11ea-80e2-a27458395a82.png)
  
  6.Type `ngspice Vrefvstemp.net` and hit `enter`.
  
