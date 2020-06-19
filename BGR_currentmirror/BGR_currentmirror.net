@@ -1,13 +1,13 @@
 * C:\Users\mnrpr\Documents\LTspiceXVII\BGR_currentmirror.asc
-M1 N001 N003 N004 N002 PMOS l=500n w=12u
-M2 N001 N003 N003 N001 PMOS l=500n w=12u
-M3 N001 N003 vref N001 PMOS l=500n w=12u
-M4 N004 N004 N006 0 NMOS l=1u w=1u
-M5 N003 N004 N005 0 NMOS l=1u w=1u
+M1 N001 N003 N004 N002 PMOS l=500n w=500n
+M2 N001 N003 N003 N001 PMOS l=500n w=500n
+M3 N001 N003 vref N001 PMOS l=500n w=500n
+M4 N004 N004 N006 0 NMOS l=500n w=500n
+M5 N003 N004 N005 0 NMOS l=500n w=500n
 Q1 0 0 N006 0 2N5087
 Q5 0 0 N008 0 BCW68F
-R1 vref N008 15k
-R2 N005 N007 1k
+R1 vref N008 55k
+R2 N005 N007 3.6k
 V1 N001 0 3.3
 Q2 0 0 N007 0 BCW68F
 .model NPN NPN
@@ -16,6 +16,6 @@ Q2 0 0 N007 0 BCW68F
 .model NMOS NMOS
 .model PMOS PMOS
 .lib C:\Users\mnrpr\Documents\LTspiceXVII\lib\cmp\standard.mos
-.dc temp -40 140 20
+.dc temp -40 125 10
 .backanno
 .end
