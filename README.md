@@ -1,6 +1,6 @@
 # Bandgap Reference Circuit
 The aim of this project is to design a Bandgap Reference Circuit which generates a constant,stable reference voltage independent to temperature variations.In any System on Chip(SoC) the need for reference voltage is imminent.In almost all the analog IP blocks like Analog to Digital Converters,Low Dropout Voltage Regulators etc require this Voltage.
-# Ngspice
+# NgSpice
 Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
 ## Installation steps on Ubuntu
 1.Open the teminal 
@@ -11,9 +11,9 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
 ## Simulation steps for BGR
  1.Git clone this repository in the ubuntu system.
  
- 2.Go to `BandgapReference -> Ngspice` folder.
+ 2.Go to `BandgapReference -> NgSpice` folder.
  
- 3.Open terminal in `Ngspice` folder.
+ 3.Open terminal in `NgSpice` folder.
  
  4.Type `ngspice Vref,PTATandCTAT.net` and hit `enter`.
  
