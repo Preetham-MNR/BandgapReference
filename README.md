@@ -58,8 +58,8 @@ The SPICE simulation steps for Current mirror based Bandgap Reference circuit ar
 
 * 4.The Schematic of the Bandgap Reference circuit will be opened.
 
-     ![schematic](https://user-images.githubusercontent.com/26677041/84700876-95f13680-af71-11ea-8f80-c5dee4e8a6b8.PNG)
-
+![Schematic1](https://user-images.githubusercontent.com/26677041/85134054-83207f80-b259-11ea-9524-ae8c7bb1db99.PNG)
+    
 * 5.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
 
    ![simulate](https://user-images.githubusercontent.com/26677041/84565993-2f122880-ad8b-11ea-93e7-f58376179007.png)
@@ -85,7 +85,7 @@ To see the CTAT nature w.r.t temperatre, click on the wire above `Q5` transistor
 
 The final waveform will be as shown in the Figure below.
 
-   ![Vref vs temp](https://user-images.githubusercontent.com/26677041/84700877-95f13680-af71-11ea-843e-1a0331152b48.png)
+  ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85134057-83b91600-b259-11ea-97fd-03ba694bb6af.png)
 
 * 10.To get the variation of Reference voltage with power supply,Repeat the `Steps 5 & 6`.
 
@@ -94,8 +94,8 @@ The final waveform will be as shown in the Figure below.
 * 12.Again repeat `steps 7 & 8`,A waveform window appears.Now click on `Vref` wire on Schematic. The waveform corresponding to varistion of reference voltgae w.r.t power supply is obatined.
 The wavefrom will be as shown below.
 
-   ![Vref vs V1](https://user-images.githubusercontent.com/26677041/84700878-9689cd00-af71-11ea-8870-6406faa262db.png)
-
+  ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85134062-84ea4300-b259-11ea-9f55-33c27609a8ca.png)
+  
 The SPICE simulation steps for OpAmp based Bandgap Reference circuit  are given below.
 * 1.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
 
