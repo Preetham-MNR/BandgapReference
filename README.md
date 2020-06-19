@@ -1,6 +1,6 @@
 # Bandgap Reference Circuit
 The aim of this project is to design a Bandgap Reference Circuit which generates a constant,stable reference voltage independent to temperature variations.In any System on Chip(SoC) the need for reference voltage is imminent.In almost all the analog IP blocks like Analog to Digital Converters,Low Dropout Voltage Regulators etc require this Voltage.
-# NgSpice
+# Ngspice
 Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
 ## Installation steps on Ubuntu
 1.Open the teminal 
@@ -8,12 +8,12 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
 2.Type `sudo apt-get update -y` command in the teminal.
  
 3.Now type `sudo apt-get install -y ngspice` command in the command, Ngspice will be installed on ubuntu.
-## Simulation steps for BGR
+## Simulation steps
  1.Git clone this repository in the ubuntu system.
  
- 2.Go to `BandgapReference -> NgSpice` folder.
+ 2.Go to `BandgapReference -> Ngspice` folder.
  
- 3.Open terminal in `NgSpice` folder.
+ 3.Open terminal in `Ngspice` folder.
  
  4.Type `ngspice Vref,PTATandCTAT.net` and hit `enter`.
  
@@ -34,18 +34,28 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85127002-36827780-b24c-11ea-9c7f-cbad51829f81.png)
 
 
-# Installation steps for LTSpiceXVII Tool
-The Design and Simulations of this Bandgap Reference Circuit are done using LTSpiceXVII Tool.The detailed steps for the installation of LTSpiceXVII tool are given below.
-
+# LTSpiceXVII 
+LTspice is a SPICE-based analog electronic circuit simulator computer software, produced by semiconductor manufacturer Analog Devices.
+## Installation on Windows & Mac
 1.Click [here](https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html) to download the LTSpiceXVII Tool.
 
-2.Click on `Download for Windows 7, 8 and 10` to get the `.exe` file for installation.
+2.Click on `Download for Windows 7, 8 and 10` to get the file for installation on windows.
+
+3.Click on `Download for Mac 10.9+` to get the file for installation on Mac.
 
 ![download LTSPICE](https://user-images.githubusercontent.com/26677041/84537595-b02ada80-ad0d-11ea-93f8-31fd166bb32b.PNG)
 
 3.In the `Downloads` section `LTspiceXVII.exe` is present.Use this file to install LTSpiceXVII tool on computer.
+## Installation on Ubuntu
+1.Open the terminal.
 
-# Simulation Setup
+2.Type `sudo apt-get install wine` command in the terminal.
+
+3.Then type `wget http://ltspice.linear-tech.com/software/LTspiceIV.exe` command in the terminal.
+
+4.Finally type `wine LTspiceIV.exe` command which will install LTSpice in the ubuntu system. 
+
+# Simulation Steps
 The SPICE simulation steps for Current mirror based Bandgap Reference circuit are given below.
 * 1.Download the `BGR_currentmirror` folder from this repository.
 * 2.Open the LTSpiceXVII tool and Clik on `File` in the tool bar.
