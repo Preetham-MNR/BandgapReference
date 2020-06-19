@@ -19,11 +19,20 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  
  5.The wavefrom shown here will be displayed.
  
+ ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85126997-34201d80-b24c-11ea-80e2-a27458395a82.png)
+ 
  6.Type `ngspice Vrefvstemp.net` and hit `enter`.
  
  7.The wavefrom shown here will be displayed.
  
+  ![Vrefvstemp](https://user-images.githubusercontent.com/26677041/85127001-35e9e100-b24c-11ea-9a4b-38a4b52cd10e.png)
+  
  8.Type `ngspice VrefvsVdd.net` and hit `enter`.
+ 
+ 9.The wavefrom shown here will be displayed.
+ 
+ ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85127002-36827780-b24c-11ea-9c7f-cbad51829f81.png)
+
 
 # Installation steps for LTSpiceXVII Tool
 The Design and Simulations of this Bandgap Reference Circuit are done using LTSpiceXVII Tool.The detailed steps for the installation of LTSpiceXVII tool are given below.
