@@ -1,0 +1,28 @@
+* C:\users\preetham35\Desktop\vsd_internship\BandgapReference\BGR_currentmirror\BGR_currentmirror.asc
+M1 N001 N003 N004 N002 PMOS l=500n w=500n
+M2 N001 N003 N003 N001 PMOS l=500n w=500n
+M3 N001 N003 vref N001 PMOS l=500n w=500n
+M4 N004 N004 N006 0 NMOS l=500n w=500n
+M5 N003 N004 N005 0 NMOS l=500n w=500n
+Q1 0 0 N006 0 2N5087
+Q5 0 0 N008 0 BCW68F
+R1 vref N008 55k
+R2 N005 N007 3.6k
+V1 N001 0 3.3
+Q2 0 0 N007 0 BCW68F
+
+.model BCW68F PNP Is=40f VAF=100 Bf=175 IKF=2 Br=6 RC=.5 RE=0.1 RB=0.2 CJC=13p CJE=60p TR=12n TF=600p Vceo=45 Icrating=800m
+
+.model 2N5087 PNP Is=6.734f Xti=3 Eg=1.11 Vaf=45.7 Bf=254.1 Ne=1.741 Ise=6.734f Ikf=.1962 Xtb=1.5 Br=2.683 Nc=2 Isc=0 Ikr=0 Rc=1.67 Cjc=6.2p Mjc=.301 Vjc=.75 Fc=.5 Cje=7.5p Mje=.2861 Vje=.75 Tr=10.1n Tf=467.8p Itf=.17 Vtf=5 Xtf=8 Rb=10 Vceo=50 Icrating=100m 
+
+.include standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+
+.include standard.mos
+.dc temp -40 125 10
+.control
+run
+plot v(vref)
+.endc
+.end
