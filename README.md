@@ -85,7 +85,7 @@ The SPICE simulation steps for Current mirror based Bandgap Reference circuit ar
 
 * 4.The Schematic of the Bandgap Reference circuit will be opened.
 
-![Schematic1](https://user-images.githubusercontent.com/26677041/85134054-83207f80-b259-11ea-9524-ae8c7bb1db99.PNG)
+![schematic](https://user-images.githubusercontent.com/26677041/85404627-d7d73980-b57c-11ea-81f8-da5a247aa422.PNG)
     
 * 5.In the menu bar, click on `Simulate` and select `Edit Simulation Cmd`.
 
