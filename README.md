@@ -17,35 +17,35 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  
  4.Type `ngspice Vref,PTATandCTAT.net` and hit `enter`.
  
-**Waveform for Vreference,PTAT and CTAT vs Temperature (from -40C to 125C) at resistive load of 100M ohms**
+ **Waveform for Vreference,PTAT and CTAT vs Temperature (from -40C to 125C) at resistive load of 100M ohms**
 
 ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85393621-f03e5880-b56a-11ea-93be-9b1cb5838dde.png)
 
- 6.Type `ngspice VrefvsTemp.net` and hit `enter`.
+ 5.Type `ngspice VrefvsTemp.net` and hit `enter`.
  
  **Waveform for Vreference vs Temperature (from -40C to 125C) at resistive load of 100M ohms**
 
  ![VrefvsTemp](https://user-images.githubusercontent.com/26677041/85393623-f0d6ef00-b56a-11ea-9367-85140c6d0265.png)
   
- 8.Type `ngspice VrefvsVdd.net` and hit `enter`.
+ 6.Type `ngspice VrefvsVdd.net` and hit `enter`.
  
  **Waveform for Vreference vs Vdd (from 2v to 4v) at resistive load of 100M ohms**
  
  ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85393624-f0d6ef00-b56a-11ea-850e-b8dbd2467024.png)
  
- 14.Type `ngspice transientanalysis.net` and hit `enter`.
+ 7.Type `ngspice transientanalysis.net` and hit `enter`.
  
  **Waveform for Vreference vs time (from 0 to 100us) at load capacitance of 50pF at 27C temperature**
  
  ![transientanalysis](https://user-images.githubusercontent.com/26677041/85393626-f16f8580-b56a-11ea-87b9-c556fa067723.png)
  
-  12.Type `ngspice temperaturecoefficient.net` and hit `enter`.
+  8.Type `ngspice temperaturecoefficient.net` and hit `enter`.
  
  **Waveform for Temperature Coefficient  vs temperature (from -40C to 125C) at load resistance of 100M ohms**
  
  ![temperaturecoefficient](https://user-images.githubusercontent.com/26677041/85393614-eddbfe80-b56a-11ea-819c-2f2b7dd8c4d6.png)
  
- 10.Type `ngspice Voltagecoefficient.net` and hit `enter`.
+ 9.Type `ngspice Voltagecoefficient.net` and hit `enter`.
  
   **Waveform for Voltage Coefficient  vs temperature (from -40C to 125C) at load resistance of 100M ohms**
  
