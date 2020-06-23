@@ -39,15 +39,15 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  
  ![transientanalysis](https://user-images.githubusercontent.com/26677041/85393626-f16f8580-b56a-11ea-87b9-c556fa067723.png)
  
-  8.Type `ngspice temperaturecoefficient.net` and hit `enter`.
+  8.Type `ngspice Voltagecoefficient.net` and hit `enter`.
  
- **Waveform for Temperature Coefficient  vs temperature (from -40C to 125C) at load resistance of 100M ohms**
+ **Waveform for Voltage Coefficient  vs Vdd (from 2v to 4v) at load resistance of 100M ohms**
  
  ![temperaturecoefficient](https://user-images.githubusercontent.com/26677041/85393614-eddbfe80-b56a-11ea-819c-2f2b7dd8c4d6.png)
  
- 9.Type `ngspice Voltagecoefficient.net` and hit `enter`.
+ 9.Type `ngspice temperaturecoefficient.net` and hit `enter`.
  
-  **Waveform for Voltage Coefficient  vs temperature (from -40C to 125C) at load resistance of 100M ohms**
+  **Waveform for Temperature Coefficient  vs temperature (from -40C to 125C) at load resistance of 100M ohms**
  
  ![voltagecoefficient](https://user-images.githubusercontent.com/26677041/85393619-efa5c200-b56a-11ea-8206-0ee7005f8be3.png)
 
