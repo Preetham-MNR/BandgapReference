@@ -27,10 +27,10 @@ R3 Vref 0 100000k
 .model PMOS PMOS
 .include standard.mos
 
-.dc temp -40 125 10
+.dc V1 2 4 0.2
 
 .control
 run 
-plot v(Vref),v(Vref)-v(N008),v(N008)
+plot deriv(v(Vref))
 .endc
 .end

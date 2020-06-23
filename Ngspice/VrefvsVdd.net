@@ -1,28 +1,36 @@
-* C:\users\preetham35\Desktop\vsd_internship\BandgapReference\BGR_currentmirror\BGR_currentmirror.asc
-M1 N001 N003 N004 N002 PMOS l=500n w=500n
-M2 N001 N003 N003 N001 PMOS l=500n w=500n
-M3 N001 N003 vref N001 PMOS l=500n w=500n
-M4 N004 N004 N006 0 NMOS l=500n w=500n
-M5 N003 N004 N005 0 NMOS l=500n w=500n
+* C:\Users\mnrpr\Documents\LTspiceXVII\BGR_currentmirror.asc
+M1 N001 N003 N004 N002 PMOS l=1u w=1.5u
+M2 N001 N003 N003 N001 PMOS l=1u w=1.5u
+M3 N001 N003 Vref N001 PMOS l=1u w=1.5u
+M4 N004 N004 N006 0 NMOS l=1u w=1u
 Q1 0 0 N006 0 2N5087
-Q5 0 0 N008 0 BCW68F
-R1 vref N008 55k
-R2 N005 N007 3.6k
+Q5 0 0 N008 0 2N5087
+R1 Vref N008 41k
+R2 N005 N007 3.3k
 V1 N001 0 3.3
-Q2 0 0 N007 0 BCW68F
-
-.model BCW68F PNP Is=40f VAF=100 Bf=175 IKF=2 Br=6 RC=.5 RE=0.1 RB=0.2 CJC=13p CJE=60p TR=12n TF=600p Vceo=45 Icrating=800m
-
+Q2 0 0 N007 0 2N5087
+M5 N003 N004 N005 0 NMOS l=1u w=1u
+Q3 0 0 N007 0 2N5087
+Q4 0 0 N007 0 2N5087
+Q6 0 0 N007 0 2N5087
+Q7 0 0 N007 0 2N5087
+Q8 0 0 N007 0 2N5087
+Q9 0 0 N007 0 2N5087
+Q10 0 0 N007 0 2N5087
+R3 Vref 0 100000k
+* .model 2N5087 PNP
 .model 2N5087 PNP Is=6.734f Xti=3 Eg=1.11 Vaf=45.7 Bf=254.1 Ne=1.741 Ise=6.734f Ikf=.1962 Xtb=1.5 Br=2.683 Nc=2 Isc=0 Ikr=0 Rc=1.67 Cjc=6.2p Mjc=.301 Vjc=.75 Fc=.5 Cje=7.5p Mje=.2861 Vje=.75 Tr=10.1n Tf=467.8p Itf=.17 Vtf=5 Xtf=8 Rb=10 Vceo=50 Icrating=100m 
 
 .include standard.bjt
+* .lib C:\Users\mnrpr\Documents\LTspiceXVII\lib\cmp\standard.bjt
 .model NMOS NMOS
 .model PMOS PMOS
-
 .include standard.mos
-.dc temp -40 125 10
+* .lib C:\Users\mnrpr\Documents\LTspiceXVII\lib\cmp\standard.mos
+.dc V1 2 4 0.2
+*.tran 0 100 0 10
 .control
-run
-plot v(vref), v(vref)-v(N008), v(N008)
+run 
+plot v(Vref)
 .endc
 .end
