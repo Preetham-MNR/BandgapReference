@@ -18,21 +18,38 @@ Ngspice is a mixed-level/mixed-signal electronic circuit simulator.
  4.Type `ngspice Vref,PTATandCTAT.net` and hit `enter`.
  
  5.The wavefrom shown here will be displayed.
- 
-   ![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85126997-34201d80-b24c-11ea-80e2-a27458395a82.png)
- 
- 6.Type `ngspice Vrefvstemp.net` and hit `enter`.
+
+![Vref,PTATandCTAT](https://user-images.githubusercontent.com/26677041/85392384-0fd48180-b569-11ea-87ed-33a15261f3e2.png)
+
+ 6.Type `ngspice VrefvsTemp.net` and hit `enter`.
  
  7.The wavefrom shown here will be displayed.
  
-  ![Vrefvstemp](https://user-images.githubusercontent.com/26677041/85127001-35e9e100-b24c-11ea-9a4b-38a4b52cd10e.png)
+  ![VrefvsTemp](https://user-images.githubusercontent.com/26677041/85392383-0f3beb00-b569-11ea-8d34-c72360d4b652.png)
   
  8.Type `ngspice VrefvsVdd.net` and hit `enter`.
  
  9.The wavefrom shown here will be displayed.
  
- ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85127002-36827780-b24c-11ea-9c7f-cbad51829f81.png)
-
+ ![VrefvsVdd](https://user-images.githubusercontent.com/26677041/85392382-0f3beb00-b569-11ea-8c36-1c3786e23f99.png)
+ 
+ 10.Type `ngspice Voltagecoefficient.net` and hit `enter`.
+ 
+ 11.The waveform shown here will be displayed.
+ 
+ ![voltagecoefficient](https://user-images.githubusercontent.com/26677041/85392386-0fd48180-b569-11ea-8f81-3ea2ca866567.png)
+ 
+ 12.Type `ngspice temperaturecoefficient.net` and hit `enter`.
+ 
+ 13.The waveform shown here will be displayed.
+  
+  ![temperaturecoefficient](https://user-images.githubusercontent.com/26677041/85392387-106d1800-b569-11ea-933f-8c75c4bc3332.png)
+  
+ 14.Type `ngspice transientanalysis.net` and hit `enter`.
+ 
+ 15.The waveform shown here will be displayed.
+ 
+ ![transientanalysis](https://user-images.githubusercontent.com/26677041/85392378-0d722780-b569-11ea-8db5-83c97956b239.png)
 
 # LTSpiceXVII 
 LTspice is a SPICE-based analog electronic circuit simulator computer software, produced by semiconductor manufacturer Analog Devices.
